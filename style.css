@@ -1,0 +1,111 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 3, style.scss */
+body {
+  background-color: #dfe6e9;
+  color: #333533; }
+
+/* line 4, style.scss */
+.theme-option {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px; }
+  /* line 5, style.scss */
+  .theme-option div {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    margin-left: 5px;
+    opacity: .5; }
+    /* line 5, style.scss */
+    .theme-option div.active {
+      opacity: 1; }
+  /* line 6, style.scss */
+  .theme-option #theme-default {
+    background-color: #fff; }
+  /* line 7, style.scss */
+  .theme-option #theme-dark {
+    background-color: #333533 !important; }
+  /* line 8, style.scss */
+  .theme-option #theme-green {
+    background-color: #00d679; }
+  /* line 9, style.scss */
+  .theme-option #theme-red {
+    background-color: #ff4646; }
+  /* line 10, style.scss */
+  .theme-option #theme-yellow {
+    background-color: #FCF400; }
+
+/* line 12, style.scss */
+.content-box {
+  width: auto;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 13, style.scss */
+body.theme-default {
+  background-color: #f4f4f4 !important;
+  color: #333535; }
+  /* line 16, style.scss */
+  body.theme-default .content-box {
+    background-color: #dfe6e9; }
+    /* line 16, style.scss */
+    body.theme-default .content-box p {
+      color: #333553; }
+
+/* line 20, style.scss */
+body.theme-default {
+  background-color: #f4f4f4;
+  color: #333533; }
+
+/* line 22, style.scss */
+body.theme-dark {
+  background-color: #333533;
+  color: #fff; }
+  /* line 25, style.scss */
+  body.theme-dark .content-box {
+    background-color: #000; }
+    /* line 25, style.scss */
+    body.theme-dark .content-box p {
+      color: #fff; }
+
+/* line 29, style.scss */
+body.theme-green {
+  background-color: #00d679;
+  color: #333533; }
+
+/* line 31, style.scss */
+body.theme-red {
+  background-color: #ff4646;
+  color: #333533; }
+
+/* line 34, style.scss */
+body.theme-yellow {
+  background-color: #FCF400;
+  color: #333533; }
+
+/*# sourceMappingURL=style.css.map */
